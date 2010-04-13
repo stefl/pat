@@ -8,11 +8,11 @@ sudo gem install pat
 
 # Include the gem in your project
 
-require 'postie'
+require 'pat'
 
 # Request a postcode
 
-@postcode = Postie.get("N1 1AA")
+@postcode = Pat.get("N1 1AA")
 
 # Use the results
 
