@@ -2,7 +2,11 @@
 
 Get information on UK postcodes like this:
 
-# Include the gem
+# Install the gem
+
+sudo gem install pat
+
+# Include the gem in your project
 
 require 'postie'
 
@@ -38,6 +42,14 @@ puts @postcode["administrative"]["ward"]["uri"]
 
 puts @postcode["postcode"]
 
+
+# Try it out
+
+irb -r rubygems -r pat
+
+p = Pat.get(<your postcode>)
+p["geo"]
+p[""]
 
 == Note on Patches/Pull Requests
  
