@@ -3,24 +3,39 @@
 Get information on UK postcodes like this:
 
 # Include the gem
+
 require 'postie'
 
 # Request a postcode
+
 @postcode = Postie.get("N1 1AA")
 
 # Use the results
+
 puts @postcode["geo"]["lat"]
+
 puts @postcode["geo"]["lng"]
+
 puts @postcode["geo"]["easting"]
+
 puts @postcode["geo"]["northing"]
+
 puts @postcode["geo"]["geohash"]
+
 puts @postcode["administrative"]
+
 puts @postcode["administrative"]["district"]
+
 puts @postcode["administrative"]["district"]["title"]
+
 puts @postcode["administrative"]["district"]["uri"]
+
 puts @postcode["administrative"]["ward"]
+
 puts @postcode["administrative"]["ward"]["title"]
+
 puts @postcode["administrative"]["ward"]["uri"]
+
 puts @postcode["postcode"]
 
 
