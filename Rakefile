@@ -5,12 +5,13 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "postie"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = "Ultra-simple UK postcode to geodata lookup"
+    gem.description = "Allows you to find geo-position for a UK postcode, as well as which local authority and ward the postcode resides."
     gem.email = "stef@stef.io"
     gem.homepage = "http://github.com/steflewandowski/postie"
     gem.authors = ["steflewandowski"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
+    gem.add_development_dependency "rspec", ">= 0"
+    gem.add_dependency "weary", ">=0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
