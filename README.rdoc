@@ -54,8 +54,7 @@ Use the results (returned as a hash)
 * Timely Information Project by Dave Harte: http://daveharte.com
 * Adrian Short for the idea http://twitter.com/adrianshort
 
-* Ordance Survey for seeing the light and making UK Postcode data available
-http://www.ordnancesurvey.co.uk/oswebsite/opendata/
+* Ordance Survey for seeing the light and making UK Postcode data available http://www.ordnancesurvey.co.uk/oswebsite/opendata/
 
 == Note on Patches/Pull Requests
  
