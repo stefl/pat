@@ -23,7 +23,9 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "lib/postie.rb",
+     "lib/pat.rb",
+     "pat.gemspec",
+     "spec/pat_spec.rb",
      "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/steflewandowski/pat}
