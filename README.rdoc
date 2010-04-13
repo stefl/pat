@@ -59,6 +59,9 @@ UK-Postcodes by Pezholio http://github.com/pezholio/UK-Postcodes
 Timely Information Project by Dave Harte: http://daveharte.com
 Adrian Short for the idea http://twitter.com/adrianshort
 
+and for Ordance Survey for seeing the light and making UK Postcode data available
+http://www.ordnancesurvey.co.uk/oswebsite/opendata/
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
