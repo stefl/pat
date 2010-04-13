@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/postie.rb",
+     "postie.gemspec",
      "spec/postie_spec.rb",
      "spec/spec_helper.rb"
   ]
