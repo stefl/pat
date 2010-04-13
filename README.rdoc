@@ -1,57 +1,47 @@
 = Pat
 
-Get information on UK postcodes like this:
+An extremely simple, lightweight way of requesting the Geolocation (lat, long, easting, northing) for any UK Postcode, as well as district and ward details.
 
-# Install the gem
+= Get information on a UK postcode
 
-sudo gem install pat
+Install the gem
 
-# Include the gem in your project
+  sudo gem sources -a http://gemcutter.org
+  sudo gem install pat
 
-require 'pat'
+Include the gem in your project
 
-# Request a postcode
+  require 'pat'
 
-@postcode = Pat.get("N1 1AA")
+Request a postcode
 
-# Use the results
+  @postcode = Pat.get("N1 1AA")
 
-puts @postcode["geo"]["lat"]
+Use the results (returned as a hash)
 
-puts @postcode["geo"]["lng"]
-
-puts @postcode["geo"]["easting"]
-
-puts @postcode["geo"]["northing"]
-
-puts @postcode["geo"]["geohash"]
-
-puts @postcode["administrative"]
-
-puts @postcode["administrative"]["district"]
-
-puts @postcode["administrative"]["district"]["title"]
-
-puts @postcode["administrative"]["district"]["uri"]
-
-puts @postcode["administrative"]["ward"]
-
-puts @postcode["administrative"]["ward"]["title"]
-
-puts @postcode["administrative"]["ward"]["uri"]
-
-puts @postcode["postcode"]
-
+  puts @postcode["geo"]["lat"]
+  puts @postcode["geo"]["lng"]
+  puts @postcode["geo"]["easting"]
+  puts @postcode["geo"]["northing"]
+  puts @postcode["geo"]["geohash"]
+  puts @postcode["administrative"]
+  puts @postcode["administrative"]["district"]
+  puts @postcode["administrative"]["district"]["title"]
+  puts @postcode["administrative"]["district"]["uri"]
+  puts @postcode["administrative"]["ward"]
+  puts @postcode["administrative"]["ward"]["title"]
+  puts @postcode["administrative"]["ward"]["uri"]
+  puts @postcode["postcode"]
 
 == Try it out
 
-irb -r rubygems -r pat
+  irb -r rubygems -r pat
 
-p = Pat.get("<your postcode here>")
+  p = Pat.get("<your postcode here>")
 
-p["geo"]
+  p["geo"]
 
-p["administrative"]
+  p["administrative"]
 
 == Thanks to
 
