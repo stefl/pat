@@ -4,6 +4,11 @@ An extremely simple, lightweight way of requesting the Geolocation (lat, long, e
 
 = Get information on a UK postcode
 
+Requirements
+
+* Ruby
+* Rubygems
+
 Install the gem
 
   sudo gem sources -a http://gemcutter.org
