@@ -1,4 +1,4 @@
-= postie
+= Pat
 
 Get information on UK postcodes like this:
 
@@ -43,13 +43,21 @@ puts @postcode["administrative"]["ward"]["uri"]
 puts @postcode["postcode"]
 
 
-# Try it out
+== Try it out
 
 irb -r rubygems -r pat
 
 p = Pat.get(<your postcode>)
+
 p["geo"]
-p[""]
+
+p["administrative"]
+
+== Thanks to
+
+UK-Postcodes by Pezholio http://github.com/pezholio/UK-Postcodes
+Timely Information Project by Dave Harte: http://daveharte.com
+Adrian Short for the idea http://twitter.com/adrianshort
 
 == Note on Patches/Pull Requests
  
