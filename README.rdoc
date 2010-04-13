@@ -47,7 +47,7 @@ puts @postcode["postcode"]
 
 irb -r rubygems -r pat
 
-p = Pat.get(<your postcode>)
+p = Pat.get("<your postcode here>")
 
 p["geo"]
 
