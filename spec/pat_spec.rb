@@ -1,8 +1,8 @@
 require File.dirname(__FILE__) + '/spec_helper.rb'
 
-describe "Postie" do
+describe "Pat" do
   before do
-    @postcode = Postie.get("W12 7RJ")
+    @postcode = Pat.get("W12 7RJ")
   end
   it "should get a UK postcode" do
     @postcode.should_not be_blank

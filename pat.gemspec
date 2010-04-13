@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{postie}
+  s.name = %q{pat}
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -24,17 +24,15 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/postie.rb",
-     "postie.gemspec",
-     "spec/postie_spec.rb",
      "spec/spec_helper.rb"
   ]
-  s.homepage = %q{http://github.com/steflewandowski/postie}
+  s.homepage = %q{http://github.com/steflewandowski/pat}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
   s.summary = %q{Ultra-simple UK postcode to geodata lookup}
   s.test_files = [
-    "spec/postie_spec.rb",
+    "spec/pat_spec.rb",
      "spec/spec_helper.rb"
   ]
 
