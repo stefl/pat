@@ -1,8 +1,14 @@
 require 'rubygems'
 require 'weary'
 
-class Pat
+class PatClient < Weary::Client
+  domain "http://www.uk-postcodes.com"
+  
+  get :get, "/postcode/{code}.json"
+end
+
+def Pat
   def self.get(code)
-    (Weary.get "http://www.uk-postcodes.com/postcode/#{code.gsub(' ', '')}.json").perform
+    PatClient.new.get(:code => code.gsub(' ', '').perform
   end
 end
