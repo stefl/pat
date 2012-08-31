@@ -9,6 +9,6 @@ end
 
 def Pat
   def self.get(code)
-    PatClient.new.get(:code => code.gsub(' ', '').perform
+    PatClient.new.get(:code => code.gsub(' ', '')).perform
   end
 end
