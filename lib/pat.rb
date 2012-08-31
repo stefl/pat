@@ -7,7 +7,7 @@ class PatClient < Weary::Client
   get :get, "/postcode/{code}.json"
 end
 
-def Pat
+class Pat
   def self.get(code)
     PatClient.new.get(:code => code.gsub(' ', '')).perform
   end
