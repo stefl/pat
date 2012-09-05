@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<weary>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, [">= 0"])
-      s.add_dependency(%q<weary>, [">= 0"])
+      s.add_dependency(%q<weary>, ['~> 1.0.1'])
     end
   else
     s.add_dependency(%q<rspec>, [">= 0"])
