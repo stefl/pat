@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "pat"
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["steflewandowski"]
@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<weary>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, [">= 0"])
-      s.add_dependency(%q<weary>, [">= 0"])
+      s.add_dependency(%q<weary>, ['~> 1.0.1'])
     end
   else
     s.add_dependency(%q<rspec>, [">= 0"])
